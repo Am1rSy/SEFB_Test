@@ -8,5 +8,5 @@ public abstract class medicalInvestigation {
     public medicalInvestigation(LocalDate ld){
         this.ld = ld;
     }
-    public abstract LocalDate  getld();
+    public abstract String getld();
 }

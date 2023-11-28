@@ -1,3 +1,5 @@
+package user_interface;
+
 import investigation.*;
 
 import java.util.ArrayList;
@@ -9,11 +11,14 @@ public class patient {
     private ArrayList<mriInvestigation> mri;
     private ArrayList<bpInvestigation> bp;
 
-    // Initialise patient class
+    // Initialise user_interface.patient class
     public patient(String name, String url, int age) {
         this.name = name;
         this.url = url;
         this.age = age;
+
+        mri = new ArrayList<>();
+        bp = new ArrayList<>();
     }
 
     // Set all the medical info

@@ -25,7 +25,7 @@ public class bpInvestigation extends medicalInvestigation{
     public String getMeasurement_term() {
         return measurement_term;
     }
-    public LocalDate getld(){
-        return  ld;
+    public String getld(){
+        return ld.toString();
     }
 }

@@ -21,7 +21,7 @@ public class mriInvestigation extends medicalInvestigation{
     }
 
     @Override
-    public LocalDate getld() {
-        return ld;
+    public String getld() {
+        return ld.toString();
     }
 }
